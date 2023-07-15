@@ -1,0 +1,6 @@
+file1=open("G:/201302/PythonCreatedBinaryfile.txt","br+")
+file=open("G:/201302/poster.png","bw+")
+a=file1.read()
+file.write(a)
+file.close()
+file1.close()
